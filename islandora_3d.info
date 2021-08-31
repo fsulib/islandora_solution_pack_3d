@@ -1,0 +1,8 @@
+name = "Islandora 3D Object"
+description = "An Islandora Repository module to handle 3D objects"
+dependencies[] = islandora
+package = Islandora Solution Packs
+core = 7.x
+version = 7.x-dev
+configure = admin/islandora/solution_pack_config/3d
+stylesheets[all][] = css/islandora_3d.theme.css
